@@ -1,0 +1,21 @@
+.Movies{
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap:40px;
+    padding: 40px;
+    justify-content: center;
+    overflow: hidden;
+
+    
+    
+
+}
+
+    
+
+@media (max-width: 560px){
+    .movies{
+        grid-template-columns: 100%;
+    }
+}

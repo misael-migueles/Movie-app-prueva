@@ -1,0 +1,42 @@
+.imagenes{
+  width: 230px;
+  height: 345px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgb(0, 0, 0);
+
+  
+}
+.imagenes:hover{
+    box-shadow: 0 15px 30px rgb(0, 0, 0);
+        transition: 0.5s;  
+       
+        
+}
+
+
+.movieCard{
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    text-align: center;
+}
+.movieCard:hover{
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073,
+    0 0 50px #ffffff, 0 0 60px #e60073, 0 0 70px #e60073;
+    color: white;
+}
+.title{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media (max-width: 500px){
+    .imagenes{
+        width: 90%;
+        height: auto;
+    }
+}
+.noneLink{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
